@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 import os
 from tenacity import retry, wait_fixed, stop_after_attempt
 
-API_TOKEN = '1095679499:AAECxMr42kO7LvKLkyVVKW1jKFSO-vKIhA4'
+API_TOKEN = ''
 
 bot = telebot.TeleBot(API_TOKEN)
 
@@ -293,7 +293,7 @@ def poll():
 
             bot.polling(none_stop=True,timeout=123)
         except Exception as e:
-            bot.send_message(chat_id=638994540, text=e)
+            bot.send_message(chat_id=, text=e)
             raise e
 
 
