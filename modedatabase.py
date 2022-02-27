@@ -1,5 +1,5 @@
 import psycopg2
-con = psycopg2.connect(host="94.130.7.131", database="solish", user="ali_ag", password="Im_FoCkinG-@g")
+con = psycopg2.connect(host="", database="", user="", password="")
 
 # cur = con.cursor()
 # # # cur.execute('''SELECT main_text , id FROM mode''')
